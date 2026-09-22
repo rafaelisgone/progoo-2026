@@ -1,5 +1,3 @@
-package Composicao;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
@@ -55,7 +53,7 @@ public class Pedido {
 
     // construtor
     public Pedido() {
-        this(0, LocalDateTime.now(), "Sem cliente.");
+        this(0, LocalDateTime.now(), "sem cliente");
     }
 
     public Pedido(int numeroPedido, LocalDateTime data, String cliente) {
@@ -66,12 +64,12 @@ public class Pedido {
         this.itens = new ArrayList<ItemPedido>();
     }
 
-    public void adiconaItemPedido(String produto, float valor, int quantidade){
+    public void adiconaItemPedido(String produto, float valor, int quantidade) {
         this.itens.add(new ItemPedido(produto, valor, quantidade));
         this.valor = this.valor + (valor * quantidade);
     }
 
-    public void exibeItens(){
+    public void exibeItens() {
         System.out.println("Itens do pedido:");
         for (ItemPedido itemPedido : this.itens){
             System.out.println("\nProduto: " + itemPedido.getProduto() +

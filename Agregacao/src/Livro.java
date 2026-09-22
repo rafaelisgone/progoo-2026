@@ -2,11 +2,11 @@ public class Livro {
     private String titulo, autor, editora;
     private int ano;
 
-    public Livro(){
-        this("Sem título.", "Sem autor.", "Sem editora.", 0);
+    public Livro() {
+        this("sem título", "sem autor", "sem editora", 0);
     }
 
-    public Livro(String titulo, String autor, String editora, int ano){
+    public Livro(String titulo, String autor, String editora, int ano) {
         this.setTitulo(titulo);
         this.setAutor(autor);
         this.setEditora(editora);
@@ -14,34 +14,34 @@ public class Livro {
     }
 
     // titulo
-    public void setTitulo(String titulo){
+    public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    public String getTitulo(){
+    public String getTitulo() {
         return this.titulo;
     }
 
     // autor
-    public void setAutor(String autor){
+    public void setAutor(String autor) {
         this.autor = autor;
     }
-    public String getAutor(){
+    public String getAutor() {
         return this.autor;
     }
 
     // editora
-    public void setEditora(String editora){
+    public void setEditora(String editora) {
         this.editora = editora;
     }
-    public String getEditora(){
+    public String getEditora() {
         return this.editora;
     }
 
     // ano
-    public void setAno(int ano){
+    public void setAno(int ano) {
         this.ano = ano;
     }
-    public int getAno(){
+    public int getAno() {
         return this.ano;
     }
 }

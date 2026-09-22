@@ -6,7 +6,7 @@ public class BibliotecaApp {
         Livro l3 = new Livro("Pythonn\n", "Rafael\n", "Pearson", 2022);
 
         // cria biblioteca
-        Biblioteca bi1 = new Biblioteca("Bora pra cima.", "Rua dos programadores, 1011");
+        Biblioteca bi1 = new Biblioteca("Bora pra cima", "Rua dos programadores, 1011");
         // adiciona livros a biblioteca
         bi1.adicionaLivro(l1);
         bi1.adicionaLivro(l2);

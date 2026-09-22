@@ -1,5 +1,3 @@
-package Composicao;
-
 public class ItemPedido {
     private String produto;
     private float valor;
@@ -32,7 +30,7 @@ public class ItemPedido {
 
     // construtores
     public ItemPedido() {
-        this("Sem produto.", 0, 0);
+        this("sem produto", 0, 0);
     }
 
     public ItemPedido(String produto, float valor, int quantidade) {

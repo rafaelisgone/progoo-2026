@@ -7,7 +7,7 @@ public class Aluno {
 
     // construtores
     public Aluno() {
-        this("Sem nome.", 0);
+        this("sem nome", 0);
     }
 
     public Aluno(String nome, int ra) {
