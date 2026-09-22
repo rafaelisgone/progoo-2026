@@ -24,9 +24,9 @@ public class FuncionarioApp {
         funcionario1.setSalario(3000.00);
         funcionario1.setCargaHorariaSemanal(44);
 
-        // Alterações inválidas
+        // alterações inválidas
         funcionario1.setNome("");
-        funcionario1.setNome("Este eh um nome extremamente longo que possui mais de cinquenta caracteres");
+        funcionario1.setNome("Este é um nome extremamente longo que possui mais de cinquenta letras.");
 
         funcionario1.setSalario(0);
         funcionario1.setCargaHorariaSemanal(50);

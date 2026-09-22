@@ -1,10 +1,11 @@
 public class TesteContaBancaria {
-    public static void main (String[] args){
+    public static void main(String[] args) {
+        // chamando métodos de instância
         ContaBancaria cb1 = new ContaBancaria();
         ContaBancaria cb2 = new ContaBancaria("Ana Souza", "1001", 500.00);
         ContaBancaria cb3 = new ContaBancaria("Carla Eduarda", "1002", 1000.00);
-        // chamando métodos de instância
-        // vai mostrar os dados do objeto que está chamando, no caso o cb1
+
+        // vai mostrar os dados do objeto que está chamando, no caso o cb1, cb2
         cb1.depositar(200.0);
         cb1.saque(150.0);
         cb1.mostra();

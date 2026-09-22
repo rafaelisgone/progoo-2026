@@ -1,8 +1,10 @@
 public class Funcionario {
+    // variáveis privadas só podem ser acessadas dentro da classe
     private String nome;
     private double salario;
-    private int cargaHorariaSemanal;
+        private int cargaHorariaSemanal;
 
+    // construtor
     public Funcionario(String nome, double salario, int cargaHorariaSemanal) {
         this.setNome(nome);
         this.setSalario(salario);
@@ -22,7 +24,7 @@ public class Funcionario {
         return this.cargaHorariaSemanal;
     }
 
-    // Setters
+    // setters
     public void setNome(String nome) {
         if (nome == null || nome.isEmpty() || nome.length() > 50) {
             System.out.println("Nome invalido!");

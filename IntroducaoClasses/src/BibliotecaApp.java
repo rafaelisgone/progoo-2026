@@ -1,8 +1,9 @@
 public class BibliotecaApp {
-    public static void main (String[] args){
+    public static void main(String[] args) {
+
         // objetos da classe ou instância da classe
-        Livro li1 = new Livro("A.\n", "José.\n");
-        Livro li2 = new Livro("B.\n", "Pedro.\n");
+        Livro li1 = new Livro("A\n", "José\n");
+        Livro li2 = new Livro("B\n", "Pedro\n");
         Livro li3 = new Livro();
 
         li1.emprestar();
