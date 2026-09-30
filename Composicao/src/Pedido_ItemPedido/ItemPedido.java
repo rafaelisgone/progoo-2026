@@ -1,3 +1,5 @@
+package Pedido_ItemPedido;
+
 public class ItemPedido {
     private String produto;
     private float valor;

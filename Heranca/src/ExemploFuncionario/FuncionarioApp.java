@@ -1,3 +1,5 @@
+package ExemploFuncionario;
+
 public class FuncionarioApp {
 
     // aqui é onde acontece o polimorfismo
@@ -7,10 +9,10 @@ public class FuncionarioApp {
     }
 
     public static void main(String[] args) {
-//        Funcionario f1 = new Funcionario("Bernardo", 1568.00);
-//        Funcionario f2 = new Funcionario("Douglas", 2700.00);
-//        Gerente f3 = new Gerente("Eduardo", 4500.00, 400);
-//        Vendedor f4 = new Vendedor("Kaio", 1800.00, 466);
+//        Exemplo.Funcionario f1 = new Exemplo.Funcionario("Bernardo", 1568.00);
+//        Exemplo.Funcionario f2 = new Exemplo.Funcionario("Douglas", 2700.00);
+//        Exemplo.Gerente f3 = new Exemplo.Gerente("Eduardo", 4500.00, 400);
+//        Exemplo.Vendedor f4 = new Exemplo.Vendedor("Kaio", 1800.00, 466);
 //
 //        f1.exibirDados();
 //        f3.exibirDados();

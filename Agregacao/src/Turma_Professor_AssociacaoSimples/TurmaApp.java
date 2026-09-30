@@ -1,4 +1,4 @@
-package Ex1;
+package Turma_Professor_AssociacaoSimples;
 
 public class TurmaApp {
     public static void main(String[] args) {

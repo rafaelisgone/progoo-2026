@@ -1,4 +1,4 @@
-package Ex2;
+package Time_Jogador;
 
 import java.util.ArrayList;
 

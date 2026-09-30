@@ -1,4 +1,4 @@
-package Ex2;
+package Time_Jogador;
 
 public class Jogador {
     private String nome;

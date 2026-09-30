@@ -1,3 +1,5 @@
+package ExemploFuncionario;
+
 public class Gerente extends Funcionario {
     private double bonusGerencial;
 

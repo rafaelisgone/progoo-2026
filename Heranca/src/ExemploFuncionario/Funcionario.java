@@ -1,3 +1,5 @@
+package ExemploFuncionario;
+
 public class Funcionario {
     protected String nome; // protected deixa a variável públic para ser herdada
     protected double salario;

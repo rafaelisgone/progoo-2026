@@ -1,3 +1,5 @@
+package ExemploFuncionario;
+
 public class Vendedor extends Funcionario {
     private double totalVendas;
 

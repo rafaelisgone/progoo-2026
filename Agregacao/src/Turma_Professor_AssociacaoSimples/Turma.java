@@ -1,4 +1,4 @@
-package Ex1;
+package Turma_Professor_AssociacaoSimples;
 
 public class Turma {
     private String nome;
