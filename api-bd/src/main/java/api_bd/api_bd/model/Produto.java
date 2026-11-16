@@ -1,20 +1,30 @@
 package api_bd.api_bd.model;
-
 import jakarta.persistence.*;
 
-@Entity // avisa que isto é uma entidade do bd
+@Entity // entidade do banco de dados
 @Table(name="produtos")
 public class Produto {
-    @Id // avisa que será uma pk
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  // gera id automaticamente
+    @Id // campo id será uma chave primária
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //gerada automaticamente
     private Long id;
-
-    @Column(nullable = false) // nullable = false avisa que nao pode ficar vazio
-    private String nome;
-
     @Column(nullable = false)
-    private double preco;
-
-    @Column(length = 500) // a desc vai ate 500 caracteres
+    private String nome;
+    @Column(nullable = false)
+    private Double preco;
+    @Column(length = 500)
     private String descricao;
+
+    public Produto() {}
+
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+
+    public Double getPreco() { return preco; }
+    public void setPreco(Double preco) { this.preco = preco; }
+
+    public String getDescricao() { return descricao; }
+    public void setDescricao(String descricao) { this.descricao = descricao; }
 }
