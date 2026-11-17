@@ -3,11 +3,7 @@ package api_bd.api_bd.service;
 import api_bd.api_bd.model.Produto;
 import api_bd.api_bd.repository.ProdutoRepository;
 import jakarta.transaction.Transactional;
-import org.springframework.data.repository.config.RepositoryNameSpaceHandler;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Optional;
@@ -56,5 +52,4 @@ public class ProdutoService {
         }
         return null;
      }
-
 }
