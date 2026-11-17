@@ -51,4 +51,14 @@ public class UsuarioController {
         // Não removeu
         return ResponseEntity.notFound().build(); // 404
     }
+
+    // Atualizar usuário
+    @PutMapping("/{id}")
+    public ResponseEntity<Usuario> atualizarUsuario(@PathVariable Long id, @RequestBody Usuario usuario) {
+        Usuario atualizado = usuarioService.atualizarUsuario(id, usuario);
+        if (atualizado != null) {
+            return ResponseEntity.ok(atualizado); // 200
+        }
+        return ResponseEntity.notFound().build(); // 404
+    }
 }
